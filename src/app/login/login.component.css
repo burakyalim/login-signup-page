@@ -1,0 +1,56 @@
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: linear-gradient(to right, rgb(255, 146, 3) 0%, rgb(5, 177, 177) ); 
+    width: 60%; 
+    height: 70%;
+    border-radius: 15px; 
+}
+.btn {
+    background-color: #353835 ; 
+    color: white; 
+    padding: 12px 20px; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    font-size: 18px; 
+    margin-top: 15px; 
+    text-align: center;
+}
+.btn:hover {
+    background-color: rgb(255, 146, 3) ;
+}
+input[type=text], input[type=password] {
+    font-size: 18px; 
+    width: 60%;
+    padding: 20px 40px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #c4c4c4;
+    box-sizing: border-box;
+}
+input::-webkit-input-placeholder {
+    text-align: left;
+    font-size: 18px; 
+}
+
+input::-moz-placeholder {
+    text-align: left;
+}
+
+input:-ms-input-placeholder {
+    text-align: left;
+}
+.loginlabel{
+    color: #2c2c2c;
+    font-size: 18px;
+}
+
+

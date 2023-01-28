@@ -1,0 +1,31 @@
+h3 a{
+    font-size: 40px;
+    color: azure;
+    text-decoration: none;
+    position: relative;
+    left: 40%;
+    margin: 0 15px;
+}
+.login:hover{
+    padding: 10px;  
+    background-color: rgb(255, 146, 3);
+    border-radius: 15px; 
+}
+.signup:hover{
+    padding: 10px;
+    background-color: rgb(5, 177, 177);
+    border-radius: 15px;    
+}
+.col li{
+    list-style-type: none;
+    
+}
+.col li a {
+    color: aliceblue;
+    font-size: 40px;
+    text-decoration: none;
+}
+.col li a:hover{
+    color: black;
+}
+

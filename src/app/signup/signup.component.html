@@ -1,0 +1,22 @@
+<form class="sign">
+  <div>
+    <label for="name">İsim Soyisim: </label><br>
+    <input type="text" id="name" placeholder="Name - Surname" [(ngModel)]="name" name="name"><br>
+  </div>
+  <div>
+    <label for="username">Kullanıcı Adı: </label><br>
+    <input type="text" id="username" placeholder="Username" [(ngModel)]="username" name="username"><br>
+  </div>
+  <div>
+    <label for="password">Şifre: </label><br>
+    <input type="password" id="password" placeholder="Password" [(ngModel)]="password" name="password"><br>
+  </div>
+  <div>
+    <label for="email">Email: </label><br>
+    <input type="email" id="email" placeholder="Email" [(ngModel)]="email" name="email"><br>
+  </div>
+  <button (click)="onSubmit()" class="btn">Üye Ol</button>
+  <input type="reset" class="reset" value="Sıfırla"><br><br>
+  <app-table [tabledata]="signdata"></app-table>
+  
+</form>

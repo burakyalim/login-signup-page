@@ -1,1 +1,6 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+    box-sizing: border-box;
+}
+body{
+     background-image: linear-gradient(to right, rgb(5, 168, 177) 0%, rgb(255, 146, 3)); 
+}
